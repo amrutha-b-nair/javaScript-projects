@@ -15,6 +15,7 @@ body {
     color: var(--light-grey);
     font-family: "Lato", Arial, Helvetica, sans-serif;
     font-size: 18px;
+    padding:50px;
 }
 
 h1 {

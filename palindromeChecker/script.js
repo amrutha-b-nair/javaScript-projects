@@ -1,10 +1,13 @@
 let textInput = document.getElementById("text-input");
-console.log('$$$$$$'+textInput.value)
+let checkButton = document.getElementById("check-btn");
+let result = document.getElementById("result");
+
+
+
 function isPalindrome(str) {
     let cleanString = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
     let left = 0;
     let right = cleanString.length - 1;
-    console.log('########'+str);
     while(left < right) {
         if (cleanString[left] != cleanString[right]) {
             return false;
@@ -16,6 +19,16 @@ function isPalindrome(str) {
 }
 
 
-isPalindrome(textInput.value);
-console.log(isPalindrome('na--ba'));
-console.log(textInput.value)
+checkButton.addEventListener('click', function(event){
+    event.preventDefault();
+    if (textInput.value === '') {
+        alert("Please input a value");
+    } else {
+        if (isPalindrome(textInput.value)) {
+            result.textContent = `${textInput.value} is a Palindrome`;
+        } else {
+            result.textContent = `${textInput.value} is not a Palindrome`;
+        }
+        textInput.value = '';
+    }
+});
