@@ -1,0 +1,55 @@
+:root {
+    --light-grey: #f5f6f7;
+    --dark-blue: rgb(10, 10, 35);
+    --fcc-blue: #1b1b32;
+    --light-yellow: #fecc4c;
+    --dark-yellow: #feac32;
+    --light-pink: #ffadad;
+    --dark-red: #850000;
+    --light-green: #acd157;
+  }
+  
+
+body {
+    background-color: beige;
+    color: black;
+    font-family: serif, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    padding:50px;
+}
+
+h1 {
+    text-align: center;
+    font-family:'Times New Roman', serif;
+    margin: 60px auto;
+} 
+
+
+.container {
+    font-size: 30px;
+    font-weight: bold;
+    width: 90%;
+    max-width: 680px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    text-align: center;
+    background-color: rgb(13, 13, 70);
+    padding: 20px;
+    color: var(--light-grey);
+}
+
+input, button {
+    margin: 10px;
+    padding: 10px;
+    width: 70%;
+}
+
+button {
+    font-size: 20px;
+    background-color: lightyellow;
+}
+
