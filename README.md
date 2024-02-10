@@ -7,10 +7,11 @@ Welcome to the JavaScript Learning Projects repository! This repository contains
 1. **Project 1: Palindrome Checker**
    - Description: A Palindrome Checker is a program that determines whether a given string is a palindrome or not. A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward.
    - Concepts Covered: String manipulation, loops, conditionals.
+   - Project idea is from [freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/build-a-palindrome-checker-project/build-a-palindrome-checker)
 
 2. **Project 2: Roman Numeral Converter**
    - Description: A Roman Numeral Converter is a program that converts a given number to its equivalent Roman numeral representation. Roman numerals are a numeral system that originated in ancient Rome, where letters represent values.
-   - Concepts Covered: Algorithms, arrays, loops.
+   - Concepts Covered: Algorithms, arrays, loops. [freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/build-a-roman-numeral-converter-project/build-a-roman-numeral-converter)
 
 ## Getting Started
 
