@@ -16,12 +16,14 @@ body {
     font-family: serif, Arial, Helvetica, sans-serif;
     font-size: 22px;
     padding:50px;
+    
 }
 
 h1 {
     text-align: center;
     font-family:'Times New Roman', serif;
     margin: 60px auto;
+    background-color: beige;
 } 
 
 
@@ -53,3 +55,8 @@ button {
     background-color: lightyellow;
 }
 
+.dotted-bg {
+    background-image: radial-gradient(rgb(13, 13, 70) 5%, transparent 5%), radial-gradient(rgb(13, 13, 70) 5%, transparent 5%);
+    background-position: 0 0, 25px 25px;
+    background-size: 50px 50px;
+  }
