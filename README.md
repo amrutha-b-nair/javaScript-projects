@@ -27,7 +27,7 @@ To get started with the projects, follow these steps:
 2. Navigate to the project directory:
 
     ```bash
-    cd javascript-learning-projects
+    cd javaScript-projects
     ```
 
 3. Choose a project to work on and open its directory.
