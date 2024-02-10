@@ -11,7 +11,8 @@ Welcome to the JavaScript Learning Projects repository! This repository contains
 
 2. **Project 2: Roman Numeral Converter**
    - Description: A Roman Numeral Converter is a program that converts a given number to its equivalent Roman numeral representation. Roman numerals are a numeral system that originated in ancient Rome, where letters represent values.
-   - Concepts Covered: Algorithms, arrays, loops. [freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/build-a-roman-numeral-converter-project/build-a-roman-numeral-converter)
+   - Concepts Covered: Algorithms, arrays, loops.
+   - Project idea is from [freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/build-a-roman-numeral-converter-project/build-a-roman-numeral-converter)
 
 ## Getting Started
 
