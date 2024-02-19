@@ -14,6 +14,15 @@ Welcome to the JavaScript Learning Projects repository! This repository contains
    - Concepts Covered: Algorithms, arrays, loops.
    - Project idea is from [freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/build-a-roman-numeral-converter-project/build-a-roman-numeral-converter)
 
+2. **Project 3: Telephone Number Validator**
+
+    - Description: The Telephone Number Validator is a program that checks whether a given input string is a valid US phone number. It verifies various formats commonly used for US phone numbers and ensures they adhere to the specified rules.
+
+    - Concepts Covered: Regular expressions (regex), event handling, DOM manipulation, user input validation, conditional statements.
+
+    - Project idea is from [freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/build-a-roman-numeral-converter-project/build-a-roman-numeral-converter)
+
+
 ## Getting Started
 
 To get started with the projects, follow these steps:
