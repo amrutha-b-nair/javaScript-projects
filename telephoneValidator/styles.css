@@ -1,0 +1,75 @@
+:root {
+    --light-grey: #f5f6f7;
+    --dark-blue: rgb(10, 10, 35);
+    --fcc-blue: #1b1b32;
+    --dark-pink: #942e50;
+    --dark-blue:  #0c2b4d;
+    --baby-pink: #fce2d7;
+  }
+  
+
+body {
+    background-color: var(--baby-pink);
+    color: var(--dark-pink);
+    font-family: serif, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    padding:10px;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family:'Times New Roman', serif;
+    margin: 60px auto;
+} 
+
+
+.container {
+    font-weight: bold;
+    width: 90%;
+    max-width: 680px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    text-align: center;
+    background-color: var(--dark-blue);
+    padding:20px;
+    color: #EEE2DC;
+    width: 50%;
+    margin: auto;
+
+}
+
+#results-div {
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+input, .button-container {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 80%;
+}
+
+button {
+    font-size: 20px;
+    background-color: lightyellow;
+    color: var(--dark-pink);
+    font-weight: bolder;
+    padding: 5px;
+    display: inline-block;
+    width: 45%;
+    margin: 1px;
+}
+
+
+
+.dotted-bg {
+    background-image: radial-gradient(rgb(13, 13, 70) 5%, transparent 5%), radial-gradient(rgb(13, 13, 70) 5%, transparent 5%);
+    background-position: 0 0, 10px 10px;
+    background-size: 20px 20px;
+  }
