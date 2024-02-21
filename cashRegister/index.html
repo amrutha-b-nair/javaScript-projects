@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class=" dotted-bg">
+    <div class="cash-register">
+        <h1>Cash Register</h1>
+        <div id="change-due"></div>
+        <div class="input-container">
+            <label for="cash">Enter cash from customer:</label>
+            <input type="number" id="cash" placeholder="Enter amount">
+        </div>
+        <button id="purchase-btn">Purchase</button>
+        <div class="total-container">
+            <div id="total-amount"></div>
+        </div>
+        <div class="change-container">
+            <div>Change in Drawer:</div>
+            <div id="change-drawer"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
