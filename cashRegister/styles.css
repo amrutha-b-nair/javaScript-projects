@@ -70,10 +70,16 @@ button:hover {
     width: 65%;
     padding: 10px;
     margin: 15px auto;
-}
-
-#total-amount,
-#change-amount {
     font-weight: bold;
 }
 
+.change-container {
+    border:  1px solid var(--blue-green);
+    font-size: 15px;
+    width: 75%;
+    margin: 15px auto;
+    padding: 15px;
+}
+.change-container p {
+    margin:5px auto;
+}

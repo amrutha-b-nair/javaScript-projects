@@ -11,10 +11,26 @@ let cid = [
   ["ONE HUNDRED", 100]
 ];
 
-const totalAmount = document.getElementByID("total-amount");
-const changeDue = document.getElementByID("change-due");
-const changeDrawer = document.getElementByID("change-drawer");
+let changeName = {
+    "PENNY": "Pennies",
+    "NICKEL": "Nickles",
+    "DIME": "Dimes",
+    "QUARTER": "Quarters",
+    "ONE": "Ones",
+    "FIVE": "Fives",
+    "TEN": "Tens",
+    "TWENTY": "Twenties",
+    "ONE HUNDRED": "One Hundreds"
+}
 
-totalAmount.textContent =  `Total to Pay: $ ${price}`;
 
-let cash = documet.getElementByID()
+const totalAmount = document.getElementById("total-amount");
+const changeDue = document.getElementById("change-due");
+const changeDrawer = document.getElementById("change-drawer");
+
+totalAmount.textContent =  `Total to Pay: $${price}`;
+
+changeDrawer.innerHTML = `<p><strong>Change in drawer:</strong></p>
+${cid.map(money => `<p>${changeName[money[0]]}:$${money[1]}</p>`).join('')}`
+
+// let cash = documet.getElementByID()
