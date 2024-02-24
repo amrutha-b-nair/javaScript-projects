@@ -67,7 +67,7 @@ button:hover {
 .total-container {
     background-color:var(--dark);
     color: white;
-    width: 65%;
+    width: 65%; 
     padding: 10px;
     margin: 15px auto;
     font-weight: bold;
