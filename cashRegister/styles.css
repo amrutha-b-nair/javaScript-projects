@@ -80,6 +80,14 @@ button:hover {
     margin: 15px auto;
     padding: 15px;
 }
-.change-container p {
+.change-container p, #change-due p {
     margin:5px auto;
+}
+
+#change-due {
+    font-weight: bold;
+    font-size: 15px;
+    width: 75%;
+    margin: 15px auto;
+    padding: 15px;
 }
