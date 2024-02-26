@@ -1,5 +1,5 @@
 let price = 19.5;
-let cid = [["PENNY", 0.5], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]];
+let cid = [["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]];
 
 let changeName = {
     "PENNY": "Pennies",
@@ -56,15 +56,26 @@ function displayDue(status, change) {
     ${change.map(money => `<p>${money[0]}: $${money[1]}</p>`).join('')}`;
 }
 
-function insufficientFund(amountReceived) {
-  
+function gettotalDrawer(dueAmount) {
+  let totalAmountDrawer = 0;
+  let denominations = [100, 20, 10, 5, 1, 0.25, 0.1, 0.05, 0.01];
+  for (let i = 0; i < cid.length; i++) {
+    console.log(cid[i][1])
+    if (dueAmount >= denominations[i]) {
+      totalAmountDrawer += Number(cid[cid.length-i-1][1]);
+      console.log("$$$",totalAmountDrawer)
+    }
+  }
+  return totalAmountDrawer;
 }
 
 function giveChange(amountReceived) {
-  let totalDrawer = Number(parseFloat(cid.map(sublist => sublist[1]).reduce((acc, value) => acc + value, 0).toFixed(2)));
-  if (totalDrawer < amountReceived - price) {
+  let dueAmount = Number(amountReceived - price);
+  let totalDrawer = gettotalDrawer(dueAmount);
+  console.log(totalDrawer, dueAmount)
+  if (totalDrawer < dueAmount) {
     displayChangeDue.innerHTML = "Status: INSUFFICIENT_FUNDS";
-  } else if (totalDrawer === Number((amountReceived - price).toFixed(2))) {
+  } else if (totalDrawer === Number(dueAmount.toFixed(2))) {
     calculateChange(amountReceived, "CLOSED");
   } else {
     calculateChange(amountReceived, "OPEN");
